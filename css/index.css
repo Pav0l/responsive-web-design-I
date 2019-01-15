@@ -172,7 +172,7 @@ footer {
 	/* font-family: 'Staatliches', sans-serif; */
 }
 
-@media screen and (max-width: 800px) and (min-width: 501px) {
+@media screen and (max-width: 800px) {
     body {
 		margin: 2rem auto;
 		width: 95%;
@@ -181,7 +181,6 @@ footer {
     header {
 		width: 100%;
 		display: flex;
-		justify-content: space-between;
 		flex-direction: column-reverse;
         margin: auto;
         background-color: white;
@@ -189,7 +188,7 @@ footer {
     
     nav {
 		display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         max-width: 100%;
     }
@@ -207,7 +206,13 @@ footer {
 		align-items: center;
 		width: 100%;
 		padding: 3rem 0;
-    } 
+	}
+	
+	.title {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
     
     .title-and-image div img {
         display: none;
@@ -254,7 +259,13 @@ footer {
 		align-items: center;
 		max-width: 100%;
         padding: 3rem 0;
-    } 
+	}
+	
+	.title {
+		width: 100%;
+		text-align: center;
+		padding: 0;   
+	}
     
     div.title h1 {
         font-size: 15vw;
@@ -272,7 +283,7 @@ footer {
 
 	.section50 {
 		width: 100%;
-		padding: 40px 0;
+		padding-bottom: 2em 0;
 	}
 
 	.section33 {
